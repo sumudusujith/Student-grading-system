@@ -25,8 +25,11 @@ print("")
 print("Let's start to type your credits!!")
 print("")
 sum_correct=False
-credit_validation= False
+while sum_correct==False:
+
+        credit_validation= False
         while credit_validation== False:
-            try: 
-               defer_credits=int(input("what is your defer credits :"))#defer credit input
-               credit_validation=checkValidity(defer_credits)
+            try:
+                pass_credits=int(input("what is your pass credits :"))#pass credit input
+                credit_validation=checkValidity(pass_credits)
+                print("----------------------------------------------")
