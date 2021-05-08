@@ -33,5 +33,13 @@ while sum_correct==False:
                 pass_credits=int(input("what is your pass credits :"))#pass credit input
                 credit_validation=checkValidity(pass_credits)
                 print("----------------------------------------------")
-credit_validation= False
+                
+                    
+            except ValueError: #except for catch the value error
+                print("!^^^^integers required^^^^!\n See intructions above(^_^)")
+                credit_validation=False
+        credit_validation= False
         while credit_validation== False:
+            try: 
+               defer_credits=int(input("what is your defer credits :"))#defer credit input
+               credit_validation=checkValidity(defer_credits)
