@@ -21,3 +21,7 @@ print("")
 print("")
 print("")
 print("^^^^^^^^^^^^^^^^^STUDENT_PROGRESSION_OUTCOME^^^^^^^^^^^^^^^^^")
+print("")
+print("Let's start to type your credits!!")
+print("")
+sum_correct=False
