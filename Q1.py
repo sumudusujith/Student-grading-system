@@ -43,3 +43,8 @@ while sum_correct==False:
             try: 
                defer_credits=int(input("what is your defer credits :"))#defer credit input
                credit_validation=checkValidity(defer_credits)
+		print("-----------------------------------------------")
+            
+            except ValueError: #except for catch the valuer error
+                print("!^^^^integers required^^^^!\n See intructions above(^_^)")
+                credit_validation=False
