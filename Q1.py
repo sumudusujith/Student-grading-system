@@ -2,7 +2,8 @@
 def checkValidity(number): #def for check the validity of the all credit marks inputs
          if number % 20 == 0 and number <= 120 and number >= 0:
             flag = True
-	else:
+            
+         else:
             print("!!!!range error!!!!\n See intructions above(^_^)")
             flag = False
 
@@ -43,7 +44,8 @@ while sum_correct==False:
             try: 
                defer_credits=int(input("what is your defer credits :"))#defer credit input
                credit_validation=checkValidity(defer_credits)
-		print("-----------------------------------------------")
+              
+               print("-----------------------------------------------")
             
             except ValueError: #except for catch the valuer error
                 print("!^^^^integers required^^^^!\n See intructions above(^_^)")
@@ -63,8 +65,9 @@ while sum_correct==False:
 
 
         total_credits=( pass_credits , defer_credits , fail_credits )#sum of the credits of a student
-        total=sum(total_credits) 
-if total==120: #condition for total credits
+        total=sum(total_credits)
+
+        if total==120: #condition for total credits
                            sum_correct=True
         else :        
                       print("*^^^^total incorrect^^^^*\n See intructions above(^_^)")
