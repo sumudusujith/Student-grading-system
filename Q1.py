@@ -33,3 +33,5 @@ while sum_correct==False:
                 pass_credits=int(input("what is your pass credits :"))#pass credit input
                 credit_validation=checkValidity(pass_credits)
                 print("----------------------------------------------")
+credit_validation= False
+        while credit_validation== False:
