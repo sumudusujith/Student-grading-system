@@ -64,3 +64,29 @@ while sum_correct==False:
 
         total_credits=( pass_credits , defer_credits , fail_credits )#sum of the credits of a student
         total=sum(total_credits) 
+if total==120: #condition for total credits
+                           sum_correct=True
+        else :        
+                      print("*^^^^total incorrect^^^^*\n See intructions above(^_^)")
+           
+if(pass_credits==120) :
+      print("~~*----progress----*~~")
+       
+elif(fail_credits>=80):
+       print("~~*----excluded----*~~")
+elif(pass_credits==100):
+       print("~~*----Progress – module traileler----*~~")
+else :
+       print("~~*----Do not progress – module retriever----*~~")
+
+
+print("                    THANK YOU!")
+print("          !!!!!!!programme is over!!!!!!!")
+exit()       
+                                   
+                           
+                    
+            
+
+                    
+           
