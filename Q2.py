@@ -8,13 +8,18 @@ def checkValidity(number):
          else:
             print("!^^^^range error^^^^!\n See intructions above(^_^)")
             check = False
-return check#to repeat range error 
+
+            return check#to repeat range error 
 
 print("                       !INSTRUCTIONS!")#intructions for users
 print("")
 print("")
 print("1:Enter your suitable credits when the programme ask it..")
 print("2:you can enter only you  ingers..")
+print("3:your credit must be below or equals 120..")
+print("4:your credit must be above or equals 0..")
+print("5:And finnaly your credit must be one of thease 0,20,40,60,80,100,120")
+print("")
 print("3:your credit must be below or equals 120..")
 print("4:your credit must be above or equals 0..")
 print("5:And finnaly your credit must be one of thease 0,20,40,60,80,100,120")
