@@ -118,3 +118,34 @@ Max=max( progressCounter,trailerCounter,donotCounter,excludeCounter)
 print("progress trailing retriever  excluded")#head topics of table
 time.sleep(3)
 for count in range(0,Max):
+
+          
+            if progressCounter>0:
+                   
+                   print("*",end="          ")
+                   progressCounter -=1#subtract one from count 
+            else:
+                   print("" ,end="          ")
+                    
+            time.sleep(2)
+
+            if trailerCounter>0:
+                   print("*",end="          ")
+                   trailerCounter -=1
+            else:
+                   print("" ,end="          ")
+            time.sleep(2)       
+                    
+            if donotCounter >0:
+                   print("*",end="          ")
+                   donotCounter -=1
+            else:
+                    print("",end="          ")
+            time.sleep(2)        
+                    
+            if excludeCounter >0:
+                     print("*",end="\n")
+                     excludeCounter -=1
+            else:
+                     print("",end="\n")
+            time.sleep(2) 
