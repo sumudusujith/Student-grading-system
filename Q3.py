@@ -78,3 +78,22 @@ while True:
 
             total_credits=( pass_credits, defer_credits , fail_credits )#total marks of the student
             total=sum(total_credits)
+
+            if total==120: 
+                               sum_correct=True
+            else :
+                          print("!^^^^total incorrect^^^^!\n See intructions above(^_^)")
+               
+            if(pass_credits==120):
+                  print("progress")
+                  progressCounter+=1#counting one per one input
+             
+            elif(fail_credits>=80):
+                   print("excluded")
+                   excludeCounter+=1#counting one per one input
+            elif(pass_credits==100):
+                   print("Progress – module trailer")
+                   trailerCounter+=1#counting one per one input
+            else :
+                   print("Do not progress – module retriever ")
+                   donotCounter+=1#counting one per one input
