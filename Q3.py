@@ -106,3 +106,15 @@ while True:
                 break
             elif Exit.lower()=="q":
                 break
+               
+            else :
+                  print("invalid input please enter'q' or 'p'")
+                
+    if Exit.lower()=="q":
+       break
+
+Max=max( progressCounter,trailerCounter,donotCounter,excludeCounter)
+#1st row of the histogram
+print("progress trailing retriever  excluded")#head topics of table
+time.sleep(3)
+for count in range(0,Max):
