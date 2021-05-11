@@ -97,3 +97,12 @@ while True:
             else :
                    print("Do not progress – module retriever ")
                    donotCounter+=1#counting one per one input
+                                           
+  #continue or print histogram
+    while True:
+        
+            Exit=input("if you want to exit program press ----->'q' \npress ----->'p'<---- to continue with the next student\n" )
+            if Exit.lower()=="p":#to continue
+                break
+            elif Exit.lower()=="q":
+                break
