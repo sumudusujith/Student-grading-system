@@ -66,3 +66,11 @@ while True:
                 
             credit_validation= False
             while credit_validation== False:
+                try:
+                    fail_credits=int(input("what is your fail credits:"))#fail credit input
+                    credit_validation=checkValidity(fail_credits)
+                 
+                 
+                    print("<---------------------------------------------->")
+                except ValueError: #except for catch the value error 
+                    print("!^^^^integers required^^^^!\n See intructions above(^_^)")
