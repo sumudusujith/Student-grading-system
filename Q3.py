@@ -149,3 +149,12 @@ for count in range(0,Max):
             else:
                      print("",end="\n")
             time.sleep(2) 
+print("")
+print("")
+print("")
+print("!~~~~~~~~!~~~~~~~~~~~END~~~~~~~~~~~~!~~~~~~~~~~~!")
+print("")
+time.sleep(2)
+print("~~~~~~~~~~~~~~~~~~!Thank You!~~~~~~~~~~~~~~~~~~~~~~~")
+exit()
+           
