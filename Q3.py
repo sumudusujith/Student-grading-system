@@ -39,3 +39,18 @@ excludeCounter=0
 while True:
     sum_correct=False
     while sum_correct==False:#while
+        
+
+            credit_validation= False
+            while credit_validation== False:
+                try:
+                    pass_credits=int(input("what is your pass credits :"))#pass credit input
+                    credit_validation=checkValidity(pass_credits)
+                    print("<---------------------------------------------->")
+                    
+                        
+                except ValueError: #except for catch the value error
+                    print("!^^^^integers required^^^^!\n See intructions above(^_^)")
+                    credit_validation=False
+            credit_validation= False
+            while credit_validation== False:
