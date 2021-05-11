@@ -74,3 +74,7 @@ while True:
                     print("<---------------------------------------------->")
                 except ValueError: #except for catch the value error 
                     print("!^^^^integers required^^^^!\n See intructions above(^_^)")
+                    credit_validation=False 
+
+            total_credits=( pass_credits, defer_credits , fail_credits )#total marks of the student
+            total=sum(total_credits)
