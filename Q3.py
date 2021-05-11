@@ -31,3 +31,11 @@ print("^^^^^^^^^^^^^^^^^STUDENT_PROGRESSION_OUTCOME^^^^^^^^^^^^^^^^^")
 print("")
 print("Let's start to type your credits!!")
 print("")
+#count starts for inputs
+progressCounter=0 
+trailerCounter=0
+donotCounter=0
+excludeCounter=0
+while True:
+    sum_correct=False
+    while sum_correct==False:#while
