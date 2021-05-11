@@ -7,7 +7,12 @@ def checkValidity(number):
          else:
             print("!^^^^range error^^^^!\n See intructions above(^_^)")
             check = False
- print("!^^^^range error^^^^!\n See intructions above(^_^)")
-            check = False
-  print("!^^^^range error^^^^!\n See intructions above(^_^)")
-            check = False
+
+            return check#to repeat range error 
+
+print("                       !INSTRUCTIONS!")#intructions for users
+print("")
+print("")
+time.sleep(2)
+print("1:Enter your suitable credits when the programme ask it..")
+time.sleep(2)
