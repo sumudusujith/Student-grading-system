@@ -7,3 +7,5 @@ def checkValidity(number):
          else:
             print("!^^^^range error^^^^!\n See intructions above(^_^)")
             check = False
+ print("!^^^^range error^^^^!\n See intructions above(^_^)")
+            check = False
