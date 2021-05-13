@@ -13,3 +13,10 @@ for appendix in range(len(results)):#loop for 10 outcomes
 	print('defer_Credit: ',results[appendix][1])#indexing for defer_credit
 	print('fail_Credit : ',results[appendix][2])#indexing for fail_credit
 	print("")
+	print('Final output')
+	print("\/\/\/\/\/\/\/")
+	print("")
+
+	pass_credit=results[appendix][0]
+	defer_credit=results[appendix][1]
+	fail_credit=results[appendix][2]
