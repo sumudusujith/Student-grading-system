@@ -46,3 +46,20 @@ for appendix in range(len(results)):#loop for 10 outcomes
 	elif pass_credit==40 and 0< defer_credit <= 80:
 		print("Do not Progress-Module Retriever")
 		countC+=1
+
+	elif pass_credit== 60 :
+		print("Do not Progress- Module Retriever")
+		countC+=1
+	
+	elif pass_credit== 80 :
+		print("Do not Progress -Module Retriever")
+		countC+=1
+
+	elif pass_credit== 100 and 0<=defer_credit<=20:
+		print("Progress-Module Trailer")
+		countB+=1
+		
+
+	elif pass_credit == 120 and defer_credit==0:
+		print("Progress")
+		countA+=1
