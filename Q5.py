@@ -69,3 +69,14 @@ print("")
 print("                         !~~histogram~~!")
 print("")
 print("")
+
+print("progress                          ", countA,":",   "* "*countA)#printing histogram
+print("Progress – module trailer         ", countB, ":" ,  "* "*countB)
+print("Do not progress – module retriever", countC  , ":" ,  "* "*countC)
+print("excluded                          ", countD,  ":" ,  "* "*countD)
+print("")
+print("                         !~~thank you~~!")
+print("                       !~~programme End~~!")
+
+
+exit()
