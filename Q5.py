@@ -63,3 +63,9 @@ for appendix in range(len(results)):#loop for 10 outcomes
 	elif pass_credit == 120 and defer_credit==0:
 		print("Progress")
 		countA+=1
+print("")
+time.sleep(5)
+print("")
+print("                         !~~histogram~~!")
+print("")
+print("")
