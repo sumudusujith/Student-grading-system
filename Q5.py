@@ -20,3 +20,16 @@ for appendix in range(len(results)):#loop for 10 outcomes
 	pass_credit=results[appendix][0]
 	defer_credit=results[appendix][1]
 	fail_credit=results[appendix][2]
+
+
+
+
+       
+        
+	if pass_credit==0 and defer_credit <= 40:
+		print("Exclude")
+		countD+=1
+		
+	elif pass_credit == 0 and 40<=defer_credit<=120:
+		print("Do not Progress-Module Retriever")
+		countC+=1
